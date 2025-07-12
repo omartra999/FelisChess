@@ -1,4 +1,6 @@
 import { applyMiddleware, compose, createStore } from "redux";
+import rootReducer from "./reducers/rootReducer";
+import middleware from "./middleware";
 
 const initialState = {};
 
