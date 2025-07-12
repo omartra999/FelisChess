@@ -13,15 +13,18 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
     "expo": "~53.0.17",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-native": "0.79.5",
+    "react-native-web": "^0.20.0",
     "react-redux": "^9.2.0",
     "redux": "^5.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
+    "@babel/core": "^7.28.0",
     "@babel/eslint-parser": "^7.28.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.57.1",

@@ -4,16 +4,21 @@
     "browser": true,
     "es6": true
   },
+
+
   "parser": "@babel/eslint-parser",
   "extends": [
     "airbnb"
   ],
 
+
   "parserOptions": {
   "requireConfigFile": false,
   "ecmaVersion": 2020,
-  "sourceType": "module"
-},
+  "sourceType": "module",
+  "jsx": true
+  },
+
 
   "rules": {
     "comma-dangle": ["error", {
@@ -24,6 +29,7 @@
       "functions": "ignore"
     }],
     "curly": ["error", "all"],
+    "default-param-last": "off",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "indent": ["error", 4, {"SwitchCase": 1}],
     "linebreak-style": "off",

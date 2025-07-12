@@ -8,7 +8,7 @@ const initialState = {
     version: -1,
 }
 
-const applicationReducer = (action, state = initialState) => {
+const applicationReducer = (state = initialState, action) => {
     switch (action.type) {
         case INIT_APPLICATION: {
             return {

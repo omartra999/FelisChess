@@ -1,5 +1,5 @@
 import coreMiddleware from './core'
 
-export default {
+export default [
     ...coreMiddleware,
-}
+]
