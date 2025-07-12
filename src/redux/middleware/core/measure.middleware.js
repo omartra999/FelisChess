@@ -1,13 +1,13 @@
 const measureMiddleware = () => (next) => (action) => {
-    const isMeasured = action.meta && action.meta.measure;
+    const isMeasured = action.meta && action.meta.measure
 
     if (isMeasured) {
-        console.time(`# Measured: ${action.type}` )
+        console.time(`# Measured: ${action.type}`)
         next(action)
-        console.timeEnd(`# Measured: ${action.type}` )
+        console.timeEnd(`# Measured: ${action.type}`)
     } else {
-        next(action);
+        next(action)
     }
-};
+}
 
-export default measureMiddleware;
+export default measureMiddleware

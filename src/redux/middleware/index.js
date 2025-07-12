@@ -1,4 +1,4 @@
-import coreMiddleware from './core';
+import coreMiddleware from './core'
 
 export default {
     ...coreMiddleware,
